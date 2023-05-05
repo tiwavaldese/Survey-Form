@@ -1,0 +1,122 @@
+html{
+    box-sizing: border-box;
+}
+#title,#description{
+    text-align: center;
+    color: rgb(255,255,255)
+  }
+  #title{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+   
+  }
+  #description{
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 1.5rem
+  }
+  
+  
+  fieldset{
+    border: 0;
+    padding: 2rem 0;
+  
+    border-bottom: 2px solid #3b3b4f;
+      align-items: center;
+      font-size: 1.3rem;
+      
+        
+      
+      
+    
+  }
+  fieldset:last-of-type{
+    border-bottom: none 
+  }
+  label{
+    display: block;
+    margin: 0.5rem 4rem;
+    align-items: center;
+   font-size: 1.3rem;
+   width: 100%;
+   
+    
+  }
+  #name, #email,#number{
+    width: 100%;
+  
+    
+  }
+  input, select{
+    color: rgb(0,0,0);
+   background-color: rgb(255,255,255);
+   border: 1px solid white;
+   margin: 1rem 0 1em 0;
+   height: 2.4rem;
+  font-size: 1rem;
+  
+  
+  }
+  
+  body{
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    font-family: sans-serif;
+     width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+
+
+  }
+  form{
+    width: 60vw;
+    max-width:500px;
+    min-width: 300px;
+    margin: 0;
+    padding: 0em;
+  }
+  
+  textarea,select{
+    width: 100%;
+  
+  
+  
+  }
+   select{
+    margin: 1rem 0 1em 60px;
+   height: 2.4rem;
+  font-size: 1rem;
+  
+   
+  }
+  
+  textarea{
+     background-color: rgb(0,0,0);
+   color: rgb(255,255,255);
+   border: 4px solid #0a0a23;
+   resize: vertical;
+   margin: 10px 0 1em 0;
+   font-size: 1.2rem
+  }
+  
+  [type="submit"]{
+    display: block;
+    margin: 1rem auto;
+    width: 60%;
+    min-width: 300px;
+    height: 2em;
+    font-size:1.3rem;
+    background-color: rgb(127,127,127);
+    border-color: rgb(255,255,255);
+  }
+  .inline{
+    display: inline-block;
+    margin-right:0.63rem;
+     
+    min-width: 1.25rem;
+    height: 2.5rem;
+    vertical-align: middle;
+  }
+  
