@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+  
+  </head>
+  
+  <body>
+   
+      
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thanks, your help will be welcome for the improvement of this plateform</p>
+    </header>
+
+
+    <form id="survey-form" class="survey-form">
+      <fieldset>
+      
+      <label id="name-label"> Name: <input id="name" type="text" name="name" value="Enter Your  Name"  placeholder="Enter Your  Name" class="inline" required></input> </label>
+ 
+ 
+  <label id="email-label">Email: <input id="email" type="email" name="email"  value="Enter Your Email"placeholder="Enter Your Email" class="inline" required></input> </label>
+
+   
+   <label id="number-label"> Age: <input id="number" type="number" name="phone" value="Enter Your Number:"   placeholder="Enter Your Number:"  class="inline" min="13" max="97" require></input> </label>
+
+  </fieldset>
+  <fieldset > What is your current profession?
+   <select id="dropdown"  name="dropdown" required>
+     <option value="">(select an option) </option>
+     <option value="Student">Student</option>
+     <option value="Teacher">Teacher</option>
+     <option value="Employed">Employed</option>
+     <option value="Other">Other</option>
+    
+     </select>
+      
+     </fieldset>
+   <fieldset>
+ 
+    <label id="recommend">To who will you recommend this plateform?
+      </label>
+      <label id="newspaper">
+     <input id="newspaper" type="radio"  name="source"
+     class="inline" value="newspaper" checked></input>Newspaper
+     </label>
+     <label id="friends">
+      <input id="friends" type="radio"  name="source" value="friends"
+      class="inline"></input>Friends
+     
+          </label>
+          <label id="social media">
+      <input id="social media" type="radio"  name="source" value="social media" class="inline"></input>Social Media
+     
+          </label>
+          <label id="family">
+      <input id="family" type="radio"  name="source" value="family" class="inline"></input>Family
+     
+          </label>
+          <label id="other">
+      <input id="other" type="radio"  name="source" value="other"  class="inline"></input>Other
+     
+          </label>
+          
+          </fieldset>
+
+            <fieldset>
+              
+          <label>What will you like to see improved in this  plateform?
+</label>
+<label id="like">
+     <input id="like" type="checkbox" class="inline" name="like" value="front-end developer" required checked></input> Front-end Developer
+     </label>
+     <label id="like">
+      <input id="like" type="checkbox"  name="like" class="inline" value="back-end developer" required></input>Back-end Developer
+     </label>
+      <label id="like">
+      <input id="like" type="checkbox"  name="like" class="inline" value="software engineering" required></input> Software Engineering
+    
+     </label>
+      <label id="like">
+      <input id="like" type="checkbox"  name="like" class="inline" value="android app" required></input>Android App Developer 
+     </label>
+      <label id="like">
+      <input id="like" type="checkbox" name="like" class="inline" value="other" required></input>Other 
+     </label>
+    
+     </fieldset>
+
+     <fieldset>
+
+ <label id="feedback">  Please input your feedback    <textarea id="feedback" name="feedback" class="feedback" placeholder="Enter your feedback here" rows="3" cols="30" required></textarea>
+ </label>
+ 
+       </fieldset>
+
+     <button id="submit" type="submit" class="btn" >Submit</button>
+     
+      
+      </form>
+     
+    </body>
+  </html>
